@@ -1,0 +1,15 @@
+.imageBackground{
+    width: 100%;
+    height: 300px;
+    background-size: cover;
+    background-position: center center;
+}
+.menuCenter{
+    text-align: center !important;
+}
+.orderGallery{
+    text-align: center;
+}
+.orderGallery svg{
+    color: #fa758c;
+}

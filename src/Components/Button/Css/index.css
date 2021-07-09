@@ -1,0 +1,21 @@
+.buttonMain{
+    text-transform: uppercase;
+    padding: 10px 40px;
+    border:none;
+    outline: none;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.primaryButton{
+    color: #fa758c;
+}
+
+.backgroundButton{
+    background-color: #fa758c;
+    color: #fff;
+}

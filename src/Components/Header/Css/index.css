@@ -1,0 +1,50 @@
+.logo{
+    width: 100px;
+}
+
+.itemsMenu li{
+    font-family: 'Montserrat', sans-serif;
+    display: inline-block;
+    padding: 10px;
+    margin: 0 10px;
+}
+.itemsMenu li:hover{
+    background-color: #fa758c;
+    cursor: pointer;
+    color: #fff;
+}
+.itemsMenu{
+    text-align: right;
+    padding: 0;
+    margin:0;
+}
+.iconMenu{
+    display: block !important;
+    margin-right: 0;
+    margin-left: auto;
+}
+@media (max-width: 767.98px) { 
+    .itemsMenu{
+        text-align: center;
+        padding: 0;
+        margin:0;
+    }
+
+    .itemsMenu li{
+      
+        padding: 5px;
+        margin: 0 2px;
+    }
+    .logo{
+        display: block;
+        margin: auto;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    .itemsMenu li{
+        padding: 7px;
+        margin: 0 5px;
+    }
+ }
+
